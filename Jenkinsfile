@@ -4,7 +4,7 @@ pipeline {
   environment {
         TEST="test"
   }
-
+  
   stages {
     stage('Checkout') {
       steps {
